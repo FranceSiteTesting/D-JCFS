@@ -183,3 +183,16 @@ button.cs-full:hover {
 .cs-flex-box.cs-contact-box:hover.cs-flex-box.cs-contact-box p {
     color: #202020 !important;
 }
+
+
+
+
+@media only screen and (max-width: 900px) {
+	.cs-flex {
+	    flex-direction: column;
+	}
+	.cs-main {
+	    width: auto;
+	    padding: 60px;
+	}
+}
