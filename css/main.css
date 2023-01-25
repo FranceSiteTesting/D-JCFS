@@ -23,6 +23,9 @@ html { scroll-behavior: smooth; }
 .cs-flex-balanced-height {
 	align-items: unset !important;
 }
+.cs-spacing {
+	padding: 40px;
+}
 .cs-image {
 	max-width: 500px;
 }
@@ -194,5 +197,22 @@ button.cs-full:hover {
 	.cs-main {
 	    width: auto;
 	    padding: 60px;
+	}
+	.cs-hero {
+	    min-height: 80vh;
+	    padding: 60px 60px 0px 60px;
+	}
+	.cs-services {
+	    max-width: 60%;
+	    padding: 40px;
+	    margin: 0px auto;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.cs-services {
+	    max-width: 60%;
+	    padding: 40px;
+	    margin: 0px auto;
 	}
 }
