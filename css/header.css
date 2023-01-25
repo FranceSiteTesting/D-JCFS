@@ -1,0 +1,53 @@
+.cs-header {
+    position: absolute;
+    width: 100%;
+    padding: 40px 0px;
+    background: transparent;
+}
+.cs-header .cs-flex {
+	display: flex;
+	justify-content: space-between;
+}
+.cs-header .cs-flex div {
+    flex: 2;
+}
+
+.cs-business {
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* LOGO */
+.cs-flex-box.cs-logo-container {
+    position: relative;
+}
+img.cs-logo {
+    position: absolute;
+    top: -40px;
+    max-width: 150px;
+}
+
+
+/* NAVIGATION */
+.cs-flex-box.cs-nav a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #272262;
+    padding: 3px 0px;
+    border-top: solid 3px transparent;
+    border-bottom: solid 3px transparent;
+    transition: 0.6s;
+}
+.cs-flex-box.cs-nav a:hover {
+    border-bottom: solid 3px #272262;
+    transition: 0.6s;
+}
+.cs-flex-box.cs-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-width: 80% !important;
+    justify-content: flex-end;
+}

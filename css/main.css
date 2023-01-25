@@ -1,0 +1,154 @@
+body {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* FONT STYLES */
+h1,h2,h3,h4,h5 { font-family: Poppins, sans-serif; }
+p,a,li,button,span,div { font-family: Montserrat, sans-serif; }
+
+h1 { font-size: 70px; line-height: 90px; margin: 50px 0px 15px 0px; }
+h2 { font-size: 58px; line-height: 62px; color: #202445; margin: 0px 0px 15px 0px; }
+h2 span { font-weight: normal; color: #202445; }
+h3 { font-size: 48px; margin: 0px 0px 15px 0px; }
+h4 { font-size: 38px; margin: 0px 0px 15px 0px; }
+h5 { font-size: 24px; margin: 0px 0px 8px 0px; }
+p,li { font-size: 20px; line-height: 28px; margin: 0px 0px 20px 0px; }
+
+.cs-hero h1, .cs-hero p {
+    color: #ffffff !important;
+    text-shadow: 0px 2px 15px #00000059;
+}
+.cs-last-p {
+	margin: 0px !important;
+}
+/* END FONT STYLES */
+
+/* BACKGROUND */
+.cs-bg-gray { background: #f4f4f4; }
+/* END BACKGROUND */
+
+/* IMAGES */
+img {
+	max-width: 100%;
+}
+.cs-flex-box.cs-image {
+	position: relative;
+}
+.cs-flex-box.cs-image img {
+	max-width: 90%;
+    border: solid 8px #ffffff !important;
+    box-shadow: 0px 0px 40px #0000002b;
+}
+/* END IMAGES */
+
+/* BUTTON STYLES */
+button {
+	border-radius: 5px;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.4s;
+	box-shadow: 0px 3px 10px #0000003b;
+}
+button:hover {
+	cursor: pointer;
+	transition: 0.4s;
+}
+button.cs-full {
+    width: 100%;
+    border-radius: 0px;
+    background: #202445;
+    color: #ffda84;
+    padding: 10px;
+}
+button.cs-full:hover {
+    background: #ffda84;
+    color: #202445;
+    letter-spacing: 3px;
+}
+.cs-button-light { background: #ffda84; color: #202445;  }
+.cs-button-dark { background: #202445; color: #ffda84; }
+
+.cs-button-light:hover {
+    background: #ffcc5a;
+    color: #202445;
+    letter-spacing: 3px;
+}
+.cs-button-dark:hover {
+    background: #ffda84;
+    color: #202445;
+    letter-spacing: 3px;
+}
+/* END BUTTON STYLES */
+
+.cs-main {
+	width: 100%;
+	padding: 100px 0px;
+}
+.cs-content {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0px auto;
+}
+.cs-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+.cs-flex-box {
+	flex: 2;
+}
+.cs-image {
+	max-width: 500px;
+}
+
+/* HERO SECTION */
+.cs-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(1deg, #040126f0, #ffffffd1) , url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* END HERO SECTION */
+
+/* OVERLAP SECTION */
+.cs-overlap {
+    margin-top: -7%;
+}
+.cs-overlap .cs-flex {
+	gap: 20px;
+}
+.cs-services {
+    background: #ffffff;
+    box-shadow: 0px 0px 40px #34343421;
+    padding: 30px;
+    text-align: center;
+}
+.cs-services h4 {
+	margin: 5px 0px !important;
+}
+/* END OVERLAP SECTION */
+
+
+/* LOCATIONS BOX */
+.cs-locations {
+	box-shadow: 0px 0px 40px #34343421;
+}
+.cs-locations-desc {
+	padding: 20px;
+}
+.cs-locations p {
+	font-size: 18px !important;
+}
+.cs-locations p:last-child {
+	margin-bottom: 5px;
+}
+/* END LOCATION BOX */
