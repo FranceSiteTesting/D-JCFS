@@ -215,4 +215,31 @@ button.cs-full:hover {
 	    padding: 40px;
 	    margin: 0px auto;
 	}
+	.cs-hero {
+	    min-height: 68vh;
+	    height: unset;
+	    padding: 90px 40px 0px 40px;
+	}
+	.cs-main {
+	    width: auto;
+	    padding: 40px;
+	}
+	.cs-flex {
+	    gap: 10px;
+	}
+	h1 {
+	    font-size: 40px; line-height: 50px;
+	}
+	h2 {
+	    font-size: 36px; line-height: 46px;
+	}
+	h4 {
+	    font-size: 28px;
+	}
+	p , li {
+		font-size: 16px !important;
+	}
+	.cs-flex-box.cs-contact-box {
+	    padding: 20px;
+	}
 }
