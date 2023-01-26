@@ -248,6 +248,9 @@ button.cs-full:hover {
 	.cs-member {
 	    max-width: 400px;
 	}
+	.cs-flex.cs-our-team {
+	    padding: 0px 30px;
+	}
 }
 
 @media only screen and (max-width: 640px) {
