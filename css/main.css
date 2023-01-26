@@ -240,6 +240,13 @@ button.cs-full:hover {
 	    padding: 40px;
 	    margin: 0px auto;
 	}
+	.cs-sub-hero {
+	    height: unset;
+	    padding: 210px 0px 60px 0px;
+	}
+	.cs-member {
+	    max-width: 400px;
+	}
 }
 
 @media only screen and (max-width: 640px) {
