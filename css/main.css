@@ -125,7 +125,7 @@ button.cs-full:hover {
     align-items: center;
     justify-content: center;
     height: 80vh;
-    background: linear-gradient(1deg, #000000b5, #ffffffde) , url(../images/hero-image.jpg);
+    background: linear-gradient(1deg, #01000ce0, #ffffffd6) , url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -135,7 +135,7 @@ button.cs-full:hover {
     align-items: center;
     justify-content: center;
     height: 50vh;
-    background: linear-gradient(1deg, #000000b5, #ffffffde) , url(../images/hero-image.jpg);
+    background: linear-gradient(1deg, #01000ce0, #ffffffd6) , url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
