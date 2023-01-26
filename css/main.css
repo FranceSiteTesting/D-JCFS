@@ -232,8 +232,9 @@ button.cs-full:hover {
 	    padding: 60px;
 	}
 	.cs-hero {
-	    min-height: 80vh;
-	    padding: 60px 60px 0px 60px;
+		height: unset;
+	    min-height: unset;
+	    padding: 200px 60px 100px 60px;
 	}
 	.cs-services {
 	    max-width: 60%;
@@ -242,7 +243,7 @@ button.cs-full:hover {
 	}
 	.cs-sub-hero {
 	    height: unset;
-	    padding: 210px 0px 60px 0px;
+	    padding: 200px 0px 60px 0px;
 	}
 	.cs-member {
 	    max-width: 400px;
@@ -254,11 +255,6 @@ button.cs-full:hover {
 	    max-width: 60%;
 	    padding: 40px;
 	    margin: 0px auto;
-	}
-	.cs-hero {
-	    min-height: 68vh;
-	    height: unset;
-	    padding: 90px 40px 0px 40px;
 	}
 	.cs-main {
 	    width: auto;
@@ -281,10 +277,5 @@ button.cs-full:hover {
 	}
 	.cs-flex-box.cs-contact-box {
 	    padding: 20px;
-	}
-	.cs-hero {
-	    min-height: 68vh;
-	    height: unset;
-	    padding: 35% 30px 40px 30px;
 	}
 }
