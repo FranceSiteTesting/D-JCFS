@@ -29,10 +29,13 @@ html { scroll-behavior: smooth;  }
 .cs-image {
 	max-width: 500px;
 }
-
 /* END OF CONTAINERS */
 
 /* BACKGROUND */
+.cs-bg-light-2 {
+	background: url('../images/cubes.png');
+	background-color: #f2f2f2;
+}
 .cs-bg-gray { background: #f4f4f4; }
 .cs-home-bg-foot {
     background: linear-gradient(1deg, #000000d6, #202445c7) , url(../images/home-bg-foot.PNG);
@@ -42,25 +45,26 @@ html { scroll-behavior: smooth;  }
 /* END BACKGROUND */
 
 /* FONT STYLES */
+.cs-clr-light { color: #ffffff; }
+.cs-clr-yellow { color: #ffda84; }
+.cs-clr-blue { color: #272264; }
+.cs-clr-dark { color: #252525; }
+
 h1,h2,h3,h4,h5 { font-family: Poppins, sans-serif; }
 p,a,li,button,span,div { font-family: Montserrat, sans-serif; }
-h1 { font-size: 64px; line-height: 90px; margin: 30px 0px 15px 0px; }
+h1 { font-size: 64px; line-height: 80px; margin: 0px 0px 20px 0px; }
 h2 { font-size: 50px; line-height: 62px; color: #202445; margin: 0px 0px 15px 0px; }
-h2 span { font-weight: normal; color: #202445; }
+h2 span { display: block; font-size: 38px; line-height: 45px; font-weight: normal; text-transform: uppercase; color: #202445; }
 h3 { font-size: 42px; margin: 0px 0px 15px 0px; }
-h4 { font-size: 32px; margin: 0px 0px 15px 0px; }
+h4 { font-size: 30px; margin: 15px 0px; }
+h4 span { font-size:24px; font-weight:normal; display: block; }
 h5 { font-size: 24px; line-height: 24px; margin: 0px 0px 8px 0px; }
-h5 span {
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
+h5 span { font-weight: 500; font-size: 16px; letter-spacing: 2px; text-transform: uppercase; }
 p,li { font-size: 20px; line-height: 30px; margin: 0px 0px 20px 0px; }
-.cs-hero h1, .cs-hero p , .cs-sub-hero h1 { color: #ffffff !important; text-shadow: 0px 2px 15px #00000059; }
+
+.cs-first-h { margin-top: 0px !important; }
 .cs-last-p { margin: 0px !important; }
 .cs-margin-bottom { margin-bottom: 30px; }
-.cs-clr-light { color: #ffffff; }
 /* END FONT STYLES */
 
 /* IMAGES */
@@ -104,7 +108,13 @@ button.cs-full:hover {
     letter-spacing: 3px;
 }
 .cs-button-light { background: #ffda84; color: #202445;  }
-.cs-button-dark { background: #202445; color: #ffda84; }
+.cs-button-dark { background: #272264; color: #ffda84; }
+.cs-button-purple { background:#ed40a9; color: #ffffff; }
+.cs-button-purple:hover {
+    background: #700042;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
 .cs-button-light:hover {
     background: #ffcc5a;
     color: #202445;
@@ -117,28 +127,47 @@ button.cs-full:hover {
 }
 /* END BUTTON STYLES */
 
-
-
 /* HERO SECTION */
 .cs-hero {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
-    background: linear-gradient(1deg, #01000ce0, #ffffffd6) , url(../images/hero-image.jpg);
+    height: 60vh;
+    background: linear-gradient(308deg, #02002ecc, #fffce547) , url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    text-align: right;
 }
 .cs-sub-hero {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50vh;
-    background: linear-gradient(1deg, #01000ce0, #ffffffd6) , url(../images/hero-image.jpg);
+    background: linear-gradient(1deg, #000000d6, #202445c7) , url(../images/hero-inner-image.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+.cs-hero-content {
+	padding: 0px 40px 0px 0px;
+	margin-bottom: 8%;
+}
+
+.cs-hero h1 {
+	font-size: 90px !important;
+	letter-spacing:5px;
+	margin-right: -10px;
+}
+.cs-hero h1 span {
+	display: block;
+	font-size: 70px !important;
+	font-weight:normal;
+	letter-spacing: 1px;
+}
+.cs-hero h1 , .cs-sub-hero h1 {
+	color: #ffffff !important;
+	text-shadow: -3px 4px 6px #000000;
 }
 /* END HERO SECTION */
 
@@ -155,11 +184,12 @@ button.cs-full:hover {
 }
 .cs-overlap .cs-flex {
 	gap: 20px;
+	align-items: unset !important;
 }
 .cs-services {
     background: #ffffff;
     box-shadow: 0px 0px 40px #34343421;
-    padding: 30px;
+    padding: 30px 20px;
     text-align: center;
 }
 .cs-our-team {
@@ -176,7 +206,7 @@ button.cs-full:hover {
     padding: 15px 20px;
 }
 .cs-services h4 {
-	margin: 5px 0px !important;
+	margin: 15px 0px 10px 0px !important;
 }
 /* END OVERLAP SECTION */
 
@@ -232,9 +262,24 @@ button.cs-full:hover {
 	    padding: 60px;
 	}
 	.cs-hero {
+		background: linear-gradient(0deg, #02002ecc, #fffce547) , url(../images/hero-image.jpg);
+		background-size: cover;
 		height: unset;
 	    min-height: unset;
 	    padding: 200px 60px 100px 60px;
+	    text-align: center;
+	}
+	.cs-hero-content {
+		padding: 0px;
+	}
+	.cs-hero h1 {
+	    font-size: 78px !important;
+	    line-height: 60px !important;
+	    margin-right: 0px;
+	    margin-top: 80px;
+	}
+	.cs-hero h1 span {
+	    font-size: 50px !important;
 	}
 	.cs-services {
 	    max-width: 60%;
@@ -243,10 +288,11 @@ button.cs-full:hover {
 	}
 	.cs-sub-hero {
 	    height: unset;
-	    padding: 200px 0px 60px 0px;
+	    padding: 270px 0px 70px 0px;
 	}
 	.cs-member {
 	    max-width: 400px;
+	    margin: 0px auto;
 	}
 	.cs-flex.cs-our-team {
 	    padding: 0px 30px;
