@@ -15,15 +15,15 @@
 		<div class="cs-content">
 			<div class="cs-flex">
 				<div class="cs-flex-box cs-logo-container">
-					<img class="cs-logo" src="images/logo.PNG" alt="logo">
+					<img class="cs-logo" src="images/logo-2.PNG" alt="logo">
 				</div>
 				<div class="cs-flex-box cs-nav">
 					<a href="/DJCFS/">HOME</a>
 					<a href="/DJCFS/#cs-about-us">ABOUT US</a>
-					<a href="/DJCFS/our-services.html">OUR SERVICES</a>
+					<a href="/DJCFS/our-services.html" class="cs-active">OUR SERVICES</a>
 					<a href="/DJCFS/our-team.html">OUR TEAM</a>
 					<a href="/DJCFS/#cs-contact-us">CONTACT US</a>
-					<button class="cs-button-light">CALL NOW!</button>
+					<button class="cs-button-purple" onclick="window.open('http://app.extensiv.com/login','_blank')">LOGIN</button>
 				</div>
 				<div class="cs-flex-box cs-nav-mobile">
 					<div class="cs-nav-box-right">
@@ -33,10 +33,10 @@
 						<button class="cs-button-light cs-x" onclick="document.getElementById('cs-nav-box').style.display='none', style.transition='0.4s'">X</button>
 						<a href="/DJCFS/">HOME</a>
 						<a href="/DJCFS/#cs-about-us">ABOUT US</a>
-						<a href="/DJCFS/our-services.html">OUR SERVICES</a>
+						<a href="/DJCFS/our-services.html" class="cs-active">OUR SERVICES</a>
 						<a href="/DJCFS/our-team.html">OUR TEAM</a>
 						<a href="/DJCFS/#cs-contact-us">CONTACT US</a>
-						<button class="cs-button-light">CALL NOW!</button>
+						<button class="cs-button-purple" onclick="window.open('http://app.extensiv.com/login','_blank')">LOGIN</button>
 					</div>
 				</div>
 			</div>
@@ -61,37 +61,35 @@
 			<div class="cs-flex">
 				<div class="cs-flex-box cs-services">
 					<img src="images/icon-1.png" alt="" style="height: 100px; display: block; border: none; margin: 0px auto;">
-					<h4>Warehousing</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<button class="cs-button-dark" onclick="">LEARN MORE</button>
+					<h4 class="cs-clr-blue">Trucking & Freight</h4>
+					<p>Full-service freight transportation company that works with brokers, agents and companies directly.</p>
+					<button class="cs-button-dark" onclick="locations.href='/DJCFS/our-services.html/#cs-srvc-1'">LEARN MORE</button>
 				</div>
 				<div class="cs-flex-box cs-services">
 					<img src="images/icon-2.png" alt="" style="height: 100px; display: block; border: none; margin: 0px auto;">
-					<h4>Distribution</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<button class="cs-button-dark" onclick="">LEARN MORE</button>
+					<h4 class="cs-clr-blue">Transportation Services</h4>
+					<p><strong>D&J CFS Inc.</strong> can assist with all your shipping needs - FTL, LTL, small parcel carriers.</p>
+					<button class="cs-button-dark" onclick="locations.href='/DJCFS/our-services.html/#cs-srvc-2'">LEARN MORE</button>
 				</div>
 				<div class="cs-flex-box cs-services">
 					<img src="images/icon-3.png" alt="" style="height: 100px; display: block; border: none; margin: 0px auto;">
-					<h4>Transportation</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<button class="cs-button-dark" onclick="">LEARN MORE</button>
+					<h4 class="cs-clr-blue">3PL Pick & Pack</h4>
+					<p>Operating a warehousing and distribution center can dramatically cut into your profit margins.</p>
+					<button class="cs-button-dark" onclick="locations.href='/DJCFS/our-services.html/#cs-srvc-3'">LEARN MORE</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- END OVERLAP SECTION -->
+
 	<!-- SECTION 1 -->
-	<div class="cs-main" id="cs-about-us">
+	<div class="cs-main" id="cs-srvc-1">
 		<div class="cs-content">
-			
 			<div class="cs-flex">
 				<div class="cs-flex-box">
-					<h2>D&J CFS Inc.</h2>
-					<p>Founded in 2010, D&J CFS inc.'s Distribution services has been steadily growing its operational capabilities in order to provide logistics solutions for all industries. situated in a modern facility located in the heart of the Tri-State area, D&J CFS Inc. proudly offers over 100,000 square feet of environmentally protected storage space with 24-hour video surveillance security.</p>
-					<p>D&J CFS inc.'s Distribution Services has full capabilities to receive, store and distribute products in compliance with all major online and Brick & Mortar&nbsp;retailers.</p>
-					<p>To carry out our mission statement of "our Customers Come First" we choose to develop and promote the following values in our business:</p>
-					<p>Our company actively seeks to forge positive and productive relationships with our clients and takes extra steps to ensure that each and every customer is satisfied with our services.</p>
+					<h2 class="cs-clr-blue">Trucking & Freight<span>Shipping Services</span></h2>
+					<p>D&J CFS Inc. is a full-service freight transportation company that works with brokers, agents and companies directly. We strive to ensure the complete satisfaction of every customers freight. We handle with dedicated care and friendly service.</p>
+					<p>D&J CFS Inc. can handle any and all size freight while offering competitive rates to our customers.</p>
 				</div>
 				<div class="cs-flex-box cs-image">
 					<img src="images/home-1.JPG" alt="Batanes">
@@ -101,8 +99,38 @@
 	</div>
 	<!-- END SECTION 1 -->
 
-	
+	<!-- SECTION 2 -->
+	<div class="cs-main cs-bg-light-2" id="cs-srvc-2">
+		<div class="cs-content">
+			<div class="cs-flex">
+				<div class="cs-flex-box cs-image">
+					<img src="images/home-1.JPG" alt="Batanes">
+				</div>
+				<div class="cs-flex-box">
+					<h2 class="cs-clr-blue">Transportation Services</h2>
+					<p>D&J CFS Inc. can assist with all your shipping needs - FTL, LTL, small parcel carriers. Our seemless transportation services reduce Carrying, Handling, Improves Security, Reduces Damage and loss, and may allow freight to be transported faster.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END SECTION 2 -->
 
+	<!-- SECTION 3 -->
+	<div class="cs-main" id="cs-srvc-3">
+		<div class="cs-content">
+			<div class="cs-flex">
+				<div class="cs-flex-box">
+					<h2 class="cs-clr-blue">3PL Pick & Pack</h2>
+					<p>Operating a warehousing and distribution center can dramatically cut into your profit margins. Let D&J CFS Inc. assist you in this aspect of your business to optimize your return.</p>
+					<p>Warehousing and distribution is our core business and we will perform it at a lower cost to operate more efficiently and allow you to concentrate on your core business. You do the selling and we will take care of the rest.</p>
+				</div>
+				<div class="cs-flex-box cs-image">
+					<img src="images/home-1.JPG" alt="Batanes">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END SECTION 3 -->
 
 	<!-- FOOTER -->
 	<div class="cs-footer">
