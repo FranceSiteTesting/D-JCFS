@@ -1,8 +1,8 @@
 .cs-header {
-    position: absolute;
+    position: relative;
     width: 100%;
-    padding: 40px 0px;
-    background: transparent;
+    padding: 20px 0px;
+    background: #ffffff;
 }
 .cs-header .cs-flex {
 	display: flex;
@@ -24,12 +24,15 @@
 }
 img.cs-logo {
     position: absolute;
-    top: -40px;
-    max-width: 180px;
+    top: -30px;
+    max-width: 220px;
 }
 
 
 /* NAVIGATION */
+.cs-active {
+    border-bottom: solid 3px #272262 !important;
+}
 .cs-flex-box.cs-nav a {
     font-size: 18px;
     font-weight: 500;
@@ -56,6 +59,11 @@ img.cs-logo {
 }
 
 @media only screen and (max-width: 900px) {
+    img.cs-logo {
+        position: relative;
+        top: unset;
+        max-width: 170px;
+    }
     .cs-header {
         position: absolute;
         width: 100%;
@@ -97,15 +105,16 @@ img.cs-logo {
         position: absolute;
         right: 40px;
     }
+    .cs-nav-mobile a.cs-active {
+        border-bottom: solid 3px #ffffff !important;
+    }
     .cs-nav-mobile .cs-nav-box a {
+        font-size: 20px;
+        padding: 5px;
         color: #ffffff !important;
         text-decoration: none;
     }
-    img.cs-logo {
-        position: relative;
-        top: unset;
-        max-width: 150px;
-    }
+    
     .cs-nav-box-right {
         display: flex;
         padding: 40px;
