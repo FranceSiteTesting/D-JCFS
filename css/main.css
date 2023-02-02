@@ -114,9 +114,9 @@ button.cs-full:hover {
     color: #202445;
     letter-spacing: 3px;
 }
-.cs-button-light { background: #ffda84; color: #202445;  }
-.cs-button-dark { background: #272264; color: #ffda84; }
-.cs-button-purple { background:#ed40a9; color: #ffffff; }
+.cs-button-light { background: #ffda84; color: #202445; border-bottom: solid 3px #ffffff; }
+.cs-button-dark { background: #272264; color: #ffda84; border-bottom: solid 3px #ffda84; }
+.cs-button-purple { background:#ed40a9; color: #ffffff; border-bottom: solid 3px #c52787; }
 .cs-button-purple:hover {
     background: #700042;
     color: #ffffff;
@@ -126,11 +126,13 @@ button.cs-full:hover {
     background: #ffcc5a;
     color: #202445;
     letter-spacing: 3px;
+    border-bottom: solid 3px #202445;
 }
 .cs-button-dark:hover {
     background: #ffda84;
     color: #202445;
     letter-spacing: 3px;
+    border-bottom: solid 3px #202445;
 }
 /* END BUTTON STYLES */
 
@@ -217,6 +219,23 @@ button.cs-full:hover {
 }
 /* END OVERLAP SECTION */
 
+/* Watermark Logo */
+.cs-watermark {
+	position: relative;
+}
+img.cs-watermark-logo {
+    position: absolute;
+    max-width: 100%;
+    top: 10%;
+    z-index: 1;
+    opacity: 0.05;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
 
 /* LOCATIONS BOX */
 .cs-locations {
@@ -273,20 +292,22 @@ button.cs-full:hover {
 		background-size: cover;
 		height: unset;
 	    min-height: unset;
-	    padding: 200px 60px 100px 60px;
+	    padding: 190px 30px 50px 30px;
 	    text-align: center;
 	}
 	.cs-hero-content {
 		padding: 0px;
+		    margin-bottom: 45px;
 	}
 	.cs-hero h1 {
-	    font-size: 78px !important;
+	    font-size: 66px !important;
 	    line-height: 60px !important;
 	    margin-right: 0px;
 	    margin-top: 80px;
 	}
 	.cs-hero h1 span {
-	    font-size: 50px !important;
+	    font-size: 36px !important;
+    	line-height: 38px;
 	}
 	.cs-services {
 	    max-width: 60%;
