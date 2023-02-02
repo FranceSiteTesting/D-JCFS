@@ -52,14 +52,21 @@ html { scroll-behavior: smooth;  }
 
 h1,h2,h3,h4,h5 { font-family: Poppins, sans-serif; }
 p,a,li,button,span,div { font-family: Montserrat, sans-serif; }
-h1 { font-size: 64px; line-height: 80px; margin: 0px 0px 20px 0px; }
-h2 { font-size: 50px; line-height: 62px; color: #202445; margin: 0px 0px 15px 0px; }
-h2 span { display: block; font-size: 38px; line-height: 45px; font-weight: normal; text-transform: uppercase; color: #202445; }
-h3 { font-size: 42px; margin: 0px 0px 15px 0px; }
+
+h1 { font-size: 64px; line-height: 80px; margin: 0px 0px 20px 0px; text-transform:uppercase; }
+
+h2 { font-size: 50px; line-height: 44px; color: #202445; margin: 0px 0px 20px 0px; text-transform:uppercase; }
+h2 span { font-size: 24px; letter-spacing: 5px; line-height: 45px; font-weight: normal; text-transform: uppercase; background: #ffda84; padding: 10px; }
+
+h3 { font-size: 40px; line-height: 44px; margin: 0px 0px 20px 0px; text-transform:uppercase; }
+h3 span { font-size: 24px; letter-spacing: 5px; line-height: 45px; font-weight: normal; text-transform: uppercase; background: #ffda84; padding: 10px; }
+
 h4 { font-size: 30px; margin: 15px 0px; }
 h4 span { font-size:24px; font-weight:normal; display: block; }
+
 h5 { font-size: 24px; line-height: 24px; margin: 0px 0px 8px 0px; }
 h5 span { font-weight: 500; font-size: 16px; letter-spacing: 2px; text-transform: uppercase; }
+
 p,li { font-size: 20px; line-height: 30px; margin: 0px 0px 20px 0px; }
 
 .cs-first-h { margin-top: 0px !important; }
@@ -132,8 +139,8 @@ button.cs-full:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
-    background: linear-gradient(308deg, #02002ecc, #fffce547) , url(../images/hero-image.jpg);
+    height: 55vh;
+    background: linear-gradient(1deg, #02002ecc, #3c3c3c8c) , url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -143,15 +150,15 @@ button.cs-full:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 40vh;
     background: linear-gradient(1deg, #000000d6, #202445c7) , url(../images/hero-inner-image.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .cs-hero-content {
-	padding: 0px 40px 0px 0px;
-	margin-bottom: 8%;
+    margin-bottom: 130px;
+    text-align: center;
 }
 
 .cs-hero h1 {
