@@ -11,7 +11,10 @@
 .cs-header .cs-flex div {
     flex: 2;
 }
-
+.cs-header .cs-content {
+    max-width: 94% !important;
+    margin: 0px auto;
+}
 .cs-business {
 	font-size: 24px;
 	font-weight: bold;
@@ -22,6 +25,7 @@
 .cs-flex-box.cs-logo-container {
     position: relative;
 }
+
 img.cs-logo {
     position: absolute;
     top: -30px;
