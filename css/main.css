@@ -232,8 +232,10 @@ button.cs-full:hover {
 }
 img.cs-watermark-logo {
     position: absolute;
-    max-width: 100%;
-    top: 10%;
+    max-width: 35%;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, 0);
     z-index: 1;
     opacity: 0.2;
     -khtml-user-select: none;
@@ -331,6 +333,9 @@ img.cs-watermark-logo {
 	}
 	.cs-flex.cs-our-team {
 	    padding: 0px 30px;
+	}
+	img.cs-watermark-logo {
+		max-width: 80%;
 	}
 }
 
